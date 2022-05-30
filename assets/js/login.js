@@ -64,7 +64,7 @@ $(function () {
                 //登录成功后需要把token存放到本地
                 //登录的唯一标识并存到本地
                 localStorage.setItem('token', res.token)
-                console.log(token);
+                // console.log(token);
                 //跳转到主页
                 location.href = '/index.html'
             }
